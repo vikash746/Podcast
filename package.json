@@ -1,0 +1,13 @@
+{
+    "name": "podplay",
+    "version": "1.0.0",
+    "description": "Podcast Hosting and Listening Platform",
+    "scripts": {
+      "build:css": "tailwindcss -i ./src/input.css -o ./assets/css/output.css",
+      "watch:css": "tailwindcss -i ./src/input.css -o ./assets/css/output.css --watch"
+    },
+    "devDependencies": {
+      "tailwindcss": "^3.3.0"
+    }
+  }
+  
